@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Personal Portfolio - William Lee</title>
+    <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <!-- Navigation bar -->
+    <nav id="navbar" class="w3-bar w3-top w3-indigo w3-large">
+        <a href="#contact" class="w3-bar-item w3-button w3-hover-none w3-border-indigo w3-bottombar w3-hover-border-black w3-hover-text w3-mobile w3-right w3-padding-15" style="width:15%">Contact</a>
+        <a href="#projects" class="w3-bar-item w3-button w3-hover-none w3-border-indigo w3-bottombar w3-hover-border-black w3-hover-text w3-mobile w3-right w3-padding-15" style="width:15%">Work</a>
+        <a href="#profile" class="w3-bar-item w3-button w3-hover-none w3-border-indigo w3-bottombar w3-hover-border-black w3-hover-text w3-mobile w3-right w3-padding-15" style="width:15%">About</a>
+    </nav>
+
+    <!-- Jumbrotron / Profile Section -->
+    <section id="profile">
+        <div id="welcome-section" class="jumbo w3-indigo">
+            <h1 id="name" class="w3-display-middle">William Lee</h1>
+            <p id="job-title" class="w3-display-middle">Front-end Developer</p>
+        </div>
+    </section>
+
+    <!-- Project Lists -->
+    <section id="projects">
+        <header class="w3-container">
+            <h2 id="works-title">Completed Projects</h2>
+        </header>
+        <div id="works-container" class="container row">
+            <!-- Project #1 -->
+            <div id="clock" class="project-tile w3-display-container w3-hover-opacity col">
+                <a href="https://codepen.io/Kwill3/pen/ZPWYrx">
+                    <img src="./images/clock.PNG" alt="clock" width="500px" height="227px">
+                </a>
+                <div class="w3-display-middle w3-display-hover">
+                    <a href="https://codepen.io/Kwill3/pen/ZPWYrx">
+                        <button class="w3-button w3-indigo card">JS Clock</button>
+                    </a>
+                </div>
+            </div>
+            <!-- Project #2 -->
+            <div id="survey" class="project-tile w3-display-container w3-hover-opacity col">
+                <a href="https://codepen.io/Kwill3/pen/JZXaqb">
+                    <img src="./images/survey.PNG" alt="survey" width="500px" height="227px">
+                </a>
+                <div class="w3-display-middle w3-display-hover">
+                    <a href="https://codepen.io/Kwill3/pen/JZXaqb">
+                        <button class="w3-button w3-indigo card">Survey Page</button>
+                    </a>
+                </div>
+            </div>
+            <!-- Project #3 -->
+            <div id="tix" class="project-tile w3-display-container w3-hover-opacity col">
+                <a href="https://codepen.io/Kwill3/pen/YBbgRv">
+                    <img src="./images/tix.PNG" alt="tix" width="500px" height="227px">
+                </a>
+                <div class="w3-display-middle w3-display-hover">
+                    <a href="https://codepen.io/Kwill3/pen/YBbgRv">
+                        <button class="w3-button w3-indigo card">TIX Clock</button>
+                    </a>
+                </div>
+            </div>
+            <!-- Project #4 -->
+            <div id="tech-doc" class="project-tile w3-display-container w3-hover-opacity col">
+                <a href="https://codepen.io/Kwill3/pen/zbrpqa">
+                    <img src="./images/tech doc.PNG" alt="tech-doc" width="500px" height="227px">
+                </a>
+                <div class="w3-display-middle w3-display-hover">
+                    <a href="https://codepen.io/Kwill3/pen/zbrpqa">
+                        <button  class="w3-button w3-indigo card">Technical Documentation</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!-- See more links -->
+        <div id="see-more">See more projects that I have completed in...
+            <br>
+            <a href="https://github.com/Kwill3">
+                <button class="w3-button w3-indigo">GitHub </button>
+            </a>
+            &
+            <a href="https://codepen.io/Kwill3">
+                <button class="w3-button w3-indigo">CodePen </button>
+            </a>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="jumbo w3-teal w3-display-container">
+            <header>
+                <h2 id="contact-title">Get in touch with me</h2>
+            </header>
+            <div id="profile-link" class="w3-display-middle">
+                <a href="https://github.com/Kwill3">
+                    <button class="w3-button w3-indigo w3-border w3-border-indigo gap">GitHub</button>
+                </a>
+                <a href="https://codepen.io/Kwill3">
+                    <button class="w3-button w3-indigo w3-border w3-border-indigo gap">CodePen</button>
+                </a>
+                <a href="mailto:karlweiyang@gmail.com">
+                    <button class="w3-button w3-indigo w3-border w3-border-indigo gap">Email</button>
+                </a>
+                <a href="tel:555-55-5555">
+                    <button class="w3-button w3-indigo w3-border w3-border-indigo gap">Phone</button>
+                </a>
+            </div>
+        </div>
+    </section>
+    <footer class="w3-indigo">
+        <p>Created by William Lee</p>
+    </footer>
+</body>
+</html>
